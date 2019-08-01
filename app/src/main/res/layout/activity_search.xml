@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/common_space_12"
+        android:layout_marginTop="@dimen/common_space_12"
+        android:layout_marginRight="@dimen/common_space_12"
+        android:background="@drawable/radius_border"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/common_space_10">
+
+        <TextView
+            android:id="@+id/activity_search_tv"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/common_space_40"
+            android:background="@color/transparent"
+            android:padding="@dimen/common_space_8"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="11111" />
+
+        <ImageView
+            android:id="@+id/activity_search_search"
+            android:layout_width="30dp"
+            android:layout_height="@dimen/common_space_30"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/common_space_12"
+            android:background="@color/transparent"
+            android:src="@mipmap/icon_search" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/common_space_12"
+        android:layout_marginTop="@dimen/common_space_12"
+        android:layout_marginRight="@dimen/common_space_12"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/activity_search_line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/common_space_4"
+            android:background="@drawable/shape_border_selected_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_space_12">
+
+            <TextView
+                android:id="@+id/activity_search_line1_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="起点" />
+
+            <ImageView
+                android:layout_width="@dimen/common_space_50"
+                android:layout_height="@dimen/common_space_20"
+                android:layout_marginLeft="@dimen/common_space_8"
+                android:layout_marginRight="@dimen/common_space_8"
+                android:src="@mipmap/icon_direction" />
+
+            <TextView
+                android:id="@+id/activity_search_line1_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="终点" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_search_line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_border_selected_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/common_space_12">
+
+            <TextView
+                android:id="@+id/activity_search_line2_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="起点" />
+
+            <ImageView
+                android:layout_width="@dimen/common_space_50"
+                android:layout_height="@dimen/common_space_20"
+                android:layout_marginLeft="@dimen/common_space_8"
+                android:layout_marginRight="@dimen/common_space_8"
+                android:src="@mipmap/icon_direction" />
+
+            <TextView
+                android:id="@+id/activity_search_line2_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="终点" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_space_40"
+        android:layout_marginLeft="@dimen/common_space_12"
+        android:layout_marginTop="@dimen/common_space_12"
+        android:layout_marginRight="@dimen/common_space_12"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/common_space_8"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置起点：" />
+
+            <EditText
+                android:id="@+id/activity_search_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_border"
+                android:padding="@dimen/common_space_4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="设置终点：" />
+
+            <EditText
+                android:id="@+id/activity_search_end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_border"
+                android:padding="@dimen/common_space_4" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_space_40"
+        android:layout_marginLeft="@dimen/common_space_12"
+        android:layout_marginTop="@dimen/common_space_12"
+        android:layout_marginRight="@dimen/common_space_12"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/activity_search_rg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_space_40"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="是否每站提示：" />
+
+            <RadioButton
+                android:id="@+id/activity_search_yes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:button="@null"
+                android:checked="true"
+                android:drawableLeft="@drawable/radio_button_bg"
+                android:drawablePadding="@dimen/common_space_8"
+                android:text="是" />
+
+            <RadioButton
+                android:id="@+id/activity_search_no"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/transparent"
+                android:button="@null"
+                android:drawableLeft="@drawable/radio_button_bg"
+                android:drawablePadding="@dimen/common_space_8"
+                android:text="否" />
+        </RadioGroup>
+
+    </LinearLayout>
+</LinearLayout>

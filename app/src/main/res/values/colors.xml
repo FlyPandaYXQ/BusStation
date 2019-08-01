@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#80000000</color>
+    <color name="light_gray">#10000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorBlue">#448ae9</color>
+    <color name="colorAccent">#999999</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="common_modal">#50000000</color>
+    <color name="common_title_darker_bg">#dfdfdf</color>
+    <color name="common_primary">#bd9a57</color>
+    <color name="common_gray">#b3b3b3</color>
+    <color name="common_text_gray">#777777</color>
+    <color name="common_text_black">#333333</color>
+
+    <color name="common_line_bg">#CCCCCC</color>
+    <color name="common_title_bg">#ffffff</color>
+    <color name="common_title_text_color">#333333</color>
+    <color name="common_content_bg">#f2f2f2</color>
+    <color name="common_hint_color">#999999</color>
+    <color name="common_text_color_black">#333333</color>
+    <color name="common_text_color_gray">#999999</color>
+    <color name="common_text_color_hint">#bcbcbc</color>
+    <color name="common_btn_unable">#CECECE</color>
+    <color name="common_edit_content_bg">#f9f9f9</color>
+
+    <color name="common_text_color_red">#ff4a01</color>
+    <color name="common_text_color_green">#89bc24</color>
+    <color name="common_text_color_primary">#bd9a57</color>
+    <color name="common_orange">#cc9966</color>
+    <color name="common_orange_darker">#bd9a57</color>
+
+    <color name="transparent">#00000000</color>
+</resources>
