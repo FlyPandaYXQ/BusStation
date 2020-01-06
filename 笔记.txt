@@ -3,4 +3,4 @@ java.io.IOException: Cleartext HTTP traffic to xxx.xxx.xxx.xxx not permitted
 ndroid9.0 默认是禁止所有的http
 请求的，需要在代码中设置如下代码才可以正常进行网络请求： android:usesCleartextTraffic="true"
 https://blog.csdn.net/nidongde521/article/details/86496804
-2.
+2. Android Q 增加隐私权限 后台持续定位需添加 <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> <!--Android Q 隐私权：在后台请求访问位置信息-->
